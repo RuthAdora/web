@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap");
+.movies{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin: 0 auto;
+    width: 1000px;
+    max-width: 100%;
+    justify-content: center;
+}
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.column{
+    padding: 1rem;
+   
+}
+.green{
+    color: green;
+}
+.red{
+    color: darkred;
+}
+.orange{
+    color: orangered;
+}
+h2{
+   color: white;
+}
+body{
+    background-color: black;
+}
+hr{
+   border: 2px solid white;
+}
+.stream{
+    border: 2px solid white;
+    
+}
+button{
+    border-radius: 1px;
+    width: 150px;
+    height: 50px;
+    cursor: pointer;
+}
+.play-button {
+
+    margin: 0 auto;
+    top: 15%;
+    position: relative;  
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0.5em 0 0.5em 1.5em;
+    border-color: transparent transparent transparent white;
+    opacity: .75; 
+   border-radius: 2px;
+   cursor: pointer;
+  }
+  
+  
+  .play-button-outer:hover .play-button {
+    opacity: 1;
+  }
+  .net{
+    color: white;
+    font-weight: bold;
+  }
+  
